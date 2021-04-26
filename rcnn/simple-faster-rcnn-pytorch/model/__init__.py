@@ -1,0 +1,7 @@
+from model.faster_rcnn_vgg16 import FasterRCNNVGG16
+from model.faster_rcnn_resnet34 import FasterRCNNRESNET34
+from model.faster_rcnn_resnet50 import FasterRCNNRESNET50
+from model.faster_rcnn_resnet101 import FasterRCNNRESNET101
+#from model.faster_rcnn_vgg16_fpn import FasterRCNNVGG16FPN
+#from model.fasterrcnn_resnet50_fpn import FasterRCNNRESNET50FPN
+from torchvision.models.detection import fasterrcnn_resnet50_fpn as FasterRCNNRESNET50FPN

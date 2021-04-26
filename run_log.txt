@@ -1,0 +1,76 @@
+2021-04-16 12:05:45 [PID:1663] python3 train.py --tag frcnn_voc --model Faster_RCNN -b1 --optimizer sgd --val_freq 1 --save_freq 1 --lr 0.001 --gpu_ids 1
+2021-04-16 15:45:07 [PID:1923] python3 train.py --tag yolo3_voc --model Yolo3 -b12 --val_freq 10 --save_freq 10 --optimizer sgd --lr 0.0001 --scheduler 10x --weights pretrained/darknet53.conv.74 --scale 544 --gpu_ids 2
+2021-04-17 10:56:56 [PID:2149] python3 train.py --tag frcnn_voc --model Faster_RCNN -b1 --optimizer sgd --val_freq 1 --save_freq 1 --lr 0.001 --gpu_ids 1
+2021-04-17 12:36:53 [PID:2307] python3 train.py --tag yolo2_voc --model Yolo2 -b24 --val_freq 5 --save_freq 5 --optimizer sgd --lr 0.00005 --scheduler 10x --weights pretrained/darknet19_448.conv.23 --scale 544 --gpu_ids 3
+2021-04-17 22:24:38 [PID:3242] python3 train.py --tag yolo2_voc --model Yolo2 -b24 --val_freq 5 --save_freq 5 --optimizer sgd --lr 0.00005 --scheduler 10x --weights pretrained/darknet19_448.conv.23 --scale 544 --gpu_ids 3
+    Accuracy:
+2021-04-18 12:46:56 [PID:4708] python3 train.py --tag frcnn_voc --model Faster_RCNN -b1 --optimizer sgd --val_freq 1 --save_freq 1 --lr 0.001 --gpu_ids 1
+    Accuracy:
+2021-04-23 20:47:35 [PID:53556] python3 train.py --tag frcnn_voc --model Faster_RCNN -b1 --optimizer sgd --val_freq 1 --save_freq 1 --lr 0.001 --backbone res50
+2021-04-23 20:49:47 [PID:53695] python3 train.py --tag frcnn_voc --model Faster_RCNN -b1 --optimizer sgd --val_freq 1 --save_freq 1 --lr 0.001 --backbone res50
+2021-04-23 20:50:21 [PID:53748] python3 train.py --tag frcnn_voc --model Faster_RCNN -b1 --optimizer sgd --val_freq 1 --save_freq 1 --lr 0.001 --backbone res50
+2021-04-23 20:51:09 [PID:53807] python3 train.py --tag frcnn_voc --model Faster_RCNN -b1 --optimizer sgd --val_freq 1 --save_freq 1 --lr 0.001 --backbone res50
+2021-04-23 20:51:46 [PID:53865] python3 train.py --tag frcnn_voc --model Faster_RCNN -b2 --optimizer sgd --val_freq 1 --save_freq 1 --lr 0.001 --backbone res50
+2021-04-23 20:52:15 [PID:53923] python3 train.py --tag frcnn_voc --model Faster_RCNN -b4 --optimizer sgd --val_freq 1 --save_freq 1 --lr 0.001 --backbone res50 --gpu_ids 1
+2021-04-23 20:54:35 [PID:7839] python3 train.py --tag frcnn_voc --model Faster_RCNN -b8 --optimizer sgd --val_freq 1 --save_freq 1 --lr 0.001 --backbone res50
+2021-04-23 20:59:54 [PID:7974] python3 train.py --tag frcnn_voc --model Faster_RCNN -b16 --optimizer sgd --val_freq 1 --save_freq 1 --lr 0.001 --backbone res50 --gpu_ids 1 --vis
+    Error: Caught RuntimeError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/usr/local/minic
+    Error: Caught RuntimeError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/usr/local/minic
+    Error: Caught RuntimeError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/usr/local/minic
+    Error: Caught RuntimeError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/usr/local/minic
+2021-04-24 08:25:00 [PID:8157] python3 train.py --tag frcnn_voc --model Faster_RCNN -b16 --optimizer sgd --val_freq 1 --save_freq 1 --lr 0.001 --backbone res50 --gpu_ids 1 --vis
+2021-04-24 08:25:37 [PID:8243] python3 train.py --tag frcnn_voc --model Faster_RCNN -b8 --optimizer sgd --val_freq 1 --save_freq 1 --lr 0.001 --backbone res50 --gpu_ids 1
+    Error: Caught RuntimeError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/usr/local/minic
+    Error: Caught RuntimeError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/usr/local/minic
+2021-04-24 08:41:36 [PID:54284] python3 train.py --tag frcnn_voc --model Faster_RCNN -b1 --optimizer sgd --val_freq 1 --save_freq 1 --lr 0.001 --backbone res50
+2021-04-24 08:44:45 [PID:8425] python3 train.py --tag frcnn_voc --model Faster_RCNN -b8 --optimizer sgd --val_freq 1 --save_freq 1 --lr 0.001 --backbone res50 --gpu_ids 1
+2021-04-24 08:45:01 [PID:8511] python3 train.py --tag frcnn_voc --model Faster_RCNN -b8 --optimizer sgd --val_freq 1 --save_freq 1 --lr 0.001 --backbone res50
+    Error: Caught RuntimeError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/usr/local/minic
+2021-04-24 09:05:14 [PID:8631] python3 train.py --tag frcnn_voc --model Faster_RCNN -b2 --optimizer sgd --val_freq 1 --save_freq 1 --lr 0.001 --backbone res50
+2021-04-24 09:14:15 [PID:4236] python3 train.py --tag frcnn_voc --model Faster_RCNN -b8 --optimizer sgd --val_freq 1 --save_freq 1 --lr 0.001 --backbone res50
+    Error: Caught RuntimeError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/root/anaconda3/
+2021-04-24 09:15:20 [PID:4289] python3 train.py --tag frcnn_voc --model Faster_RCNN -b8 --optimizer sgd --val_freq 1 --save_freq 1 --lr 0.001 --backbone res50
+    Error: Caught RuntimeError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/root/anaconda3/
+2021-04-24 09:17:01 [PID:4341] python3 train.py --tag frcnn_voc --model Faster_RCNN -b1 --optimizer sgd --val_freq 1 --save_freq 1 --lr 0.001 --backbone res50
+    Accuracy:
+2021-04-24 19:15:02 [PID:4876] python3 train.py --tag frcnn_voc --model Faster_RCNN -b1 --optimizer sgd --val_freq 1 --save_freq 1 --lr 0.001
+2021-04-24 19:18:59 [PID:4934] python3 train.py --tag frcnn_voc --model Faster_RCNN -b2 --optimizer sgd --val_freq 1 --save_freq 1 --lr 0.001 --backbone res50
+    Error: Caught RuntimeError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/root/anaconda3/
+2021-04-24 19:20:09 [PID:4987] python3 train.py --tag frcnn_voc --model Faster_RCNN -b2 --optimizer sgd --val_freq 1 --save_freq 1 --lr 0.001 --backbone res50
+    Error: Caught RuntimeError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/root/anaconda3/
+2021-04-24 20:43:23 [PID:5255] python3 train.py --tag frcnn_voc --model Faster_RCNN -b2 --optimizer sgd --val_freq 1 --save_freq 1 --lr 0.001 --backbone res50
+    Error: Caught RuntimeError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/root/anaconda3/
+2021-04-24 20:44:55 [PID:5307] python3 train.py --tag frcnn_voc --model Faster_RCNN -b4 --optimizer sgd --val_freq 1 --save_freq 1 --lr 0.001 --backbone res50
+    Error: Caught RuntimeError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/root/anaconda3/
+2021-04-24 20:51:22 [PID:5360] python3 train.py --tag frcnn_voc --model Faster_RCNN -b4 --optimizer sgd --val_freq 1 --save_freq 1 --lr 0.001 --backbone res50 --workers 0
+    Error: stack expects each tensor to be equal size, but got [3, 608, 928] at entry 0 and [3, 608, 608] at entry 2
+2021-04-24 20:59:15 [PID:5400] python3 train.py --tag frcnn_voc --model Faster_RCNN -b24 --optimizer sgd --val_freq 1 --save_freq 1 --lr 0.001 --backbone res50
+    Error: Caught RuntimeError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/root/anaconda3/

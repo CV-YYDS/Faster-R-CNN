@@ -1,0 +1,62 @@
+[INFO] 2021-04-16 03:52:57 ==================Options==================
+[INFO] 2021-04-16 03:52:57 backbone=None
+[INFO] 2021-04-16 03:52:57 batch_size=1
+[INFO] 2021-04-16 03:52:57 box_fusion=nms
+[INFO] 2021-04-16 03:52:57 checkpoint_dir=./checkpoints
+[INFO] 2021-04-16 03:52:57 class_names=['aeroplane', 'bicycle', 'bird', 'boat', 'bottle', 'bus', 'car', 'cat', 'chair', 'cow', 'diningtable', 'dog', 'horse', 'motorbike', 'person', 'pottedplant', 'sheep', 'sofa', 'train', 'tvmonitor']
+[INFO] 2021-04-16 03:52:57 conf_thresh=0.01
+[INFO] 2021-04-16 03:52:57 crop=None
+[INFO] 2021-04-16 03:52:57 data_root=./datasets/
+[INFO] 2021-04-16 03:52:57 dataset=voc
+[INFO] 2021-04-16 03:52:57 debug=False
+[INFO] 2021-04-16 03:52:57 device=cuda:0
+[INFO] 2021-04-16 03:52:57 epochs=12
+[INFO] 2021-04-16 03:52:57 eval_freq=10
+[INFO] 2021-04-16 03:52:57 gpu_ids=0
+[INFO] 2021-04-16 03:52:57 height=600
+[INFO] 2021-04-16 03:52:57 init=None
+[INFO] 2021-04-16 03:52:57 load=pretrained/0_voc_FasterRCNN.pt
+[INFO] 2021-04-16 03:52:57 log_dir=./logs
+[INFO] 2021-04-16 03:52:57 log_freq=1
+[INFO] 2021-04-16 03:52:57 lr=0.0001
+[INFO] 2021-04-16 03:52:57 model=Faster_RCNN
+[INFO] 2021-04-16 03:52:57 nms_thresh=0.45
+[INFO] 2021-04-16 03:52:57 no_eval=False
+[INFO] 2021-04-16 03:52:57 norm=None
+[INFO] 2021-04-16 03:52:57 num_classes=20
+[INFO] 2021-04-16 03:52:57 opt=None
+[INFO] 2021-04-16 03:52:57 optimizer=adam
+[INFO] 2021-04-16 03:52:57 reset=False
+[INFO] 2021-04-16 03:52:57 result_dir=./results
+[INFO] 2021-04-16 03:52:57 resume=False
+[INFO] 2021-04-16 03:52:57 save_freq=10
+[INFO] 2021-04-16 03:52:57 scale=None
+[INFO] 2021-04-16 03:52:57 scheduler=1x
+[INFO] 2021-04-16 03:52:57 seed=None
+[INFO] 2021-04-16 03:52:57 tag=cache
+[INFO] 2021-04-16 03:52:57 test_set=None
+[INFO] 2021-04-16 03:52:57 transform=faster_rcnn
+[INFO] 2021-04-16 03:52:57 tta=False
+[INFO] 2021-04-16 03:52:57 tta_x8=False
+[INFO] 2021-04-16 03:52:57 val_set=None
+[INFO] 2021-04-16 03:52:57 vis=False
+[INFO] 2021-04-16 03:52:57 wbf_thresh=0.5
+[INFO] 2021-04-16 03:52:57 weights=None
+[INFO] 2021-04-16 03:52:57 which_epoch=0
+[INFO] 2021-04-16 03:52:57 width=600
+[INFO] 2021-04-16 03:52:57 workers=4
+[INFO] 2021-04-16 03:52:57 ===========================================
+[INFO] 2021-04-16 03:52:57 ===========================================
+[INFO] 2021-04-16 03:52:57 val_trasforms: Compose([
+  SmallestMaxSize(always_apply=False, p=1.0, max_size=600, interpolation=1),
+  PadIfNeeded(always_apply=False, p=1.0, min_height=None, min_width=None, pad_height_divisor=32, pad_width_divisor=32, border_mode=4, value=None, mask_value=None),
+  ToTensorV2(always_apply=True, p=1.0, transpose_mask=False),
+], p=1.0, bbox_params={'format': 'pascal_voc', 'label_fields': ['labels'], 'min_area': 0, 'min_visibility': 0, 'check_each_transform': True}, keypoint_params=None, additional_targets={})
+[INFO] 2021-04-16 03:52:57 ===========================================
+[INFO] 2021-04-16 03:58:49 Eva(val) epoch 0, IoU: 0.5, APs: [    0.93498     0.92717     0.87403     0.76428     0.82772     0.92546     0.94373     0.93059     0.70886     0.86104     0.77774         0.9     0.92654     0.91892     0.92483     0.61982     0.90392     0.79949      0.8981     0.85181], mAP: 0.8609517704269883
+[INFO] 2021-04-16 03:58:50 Eva(val) epoch 0, IoU: 0.55, APs: [    0.93298     0.91139     0.85421     0.74322     0.82151     0.91997     0.94139     0.91903      0.6901       0.855     0.76664     0.86945     0.91628     0.89102      0.9035     0.58132     0.88441     0.79838     0.88352     0.84862], mAP: 0.846597440766792
+[INFO] 2021-04-16 03:58:51 Eva(val) epoch 0, IoU: 0.6, APs: [    0.91007     0.87247     0.83463     0.69261     0.81017     0.90977     0.93373     0.88717     0.66121     0.82109     0.74538     0.85862     0.90353     0.86564     0.87704     0.53426     0.86909      0.7926      0.8696     0.84326], mAP: 0.8245975488833347
+[INFO] 2021-04-16 03:58:52 Eva(val) epoch 0, IoU: 0.65, APs: [    0.87543     0.83973     0.78457     0.62486     0.76713     0.89963     0.91036     0.86002     0.61703     0.77029     0.69408     0.80559      0.8723     0.84076     0.82578     0.45208      0.8404     0.78006     0.82818      0.8331], mAP: 0.7860699558902956
+[INFO] 2021-04-16 03:58:53 Eva(val) epoch 0, IoU: 0.7, APs: [    0.83466     0.76879     0.70995     0.55369     0.72228     0.87995     0.87772     0.80894      0.5552     0.73544     0.62961     0.72035     0.79882     0.77375     0.75896     0.38813     0.80279     0.73023      0.7667     0.80744], mAP: 0.7311688696633867
+[INFO] 2021-04-16 03:58:54 Eva(val) epoch 0, IoU: 0.75, APs: [     0.7482     0.66734     0.59252     0.44079     0.63278     0.84678      0.8174      0.7561     0.44898     0.67852     0.51224     0.64632     0.68032     0.67854     0.66179     0.26443     0.73548     0.66674     0.66688      0.7761], mAP: 0.6459136428300427
+[INFO] 2021-04-16 03:58:54 Eva(val) epoch 0, mean of (AP50-AP75): 0.78254987141014
