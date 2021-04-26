@@ -26,7 +26,18 @@ datasets
 ```
 ## Models and Training
 ### 1.simple Faster R-CNN
-backbone: VGG16
+backbone: VGG16  
+train: 在simple-faster-rcnn 路径下  
+'''
+python train.py train
+'''
+parameters:  
+- --plot-every=n: 可视化的轮次
+- --env: visdom里面的环境名称 
+- --voc_data_dir: VOC数据路径
+- --use-drop:是否在ROI使用dropout
+- --use-Adam: 是否使用Adam
+- --load-path: 预训练模型路径
 
 ### 2.Faster R-CNN based on ResNet
 
