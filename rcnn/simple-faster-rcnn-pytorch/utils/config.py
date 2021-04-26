@@ -31,13 +31,13 @@ class Config:
 
     # preset
     data = 'voc'
-    pretrained_model = 'resnet50fpn' #'vgg16'  #resnet34
+    pretrained_model = 'vgg16'  #resnet50
 
     # training
     epoch = 14
 
     # model
-    model = 'RESNET50FPN' # 'VGG16'
+    model = 'VGG16' # 'RESNET50'
     
     use_adam = False # Use Adam optimizer
     use_chainer = False # try match everything as chainer
