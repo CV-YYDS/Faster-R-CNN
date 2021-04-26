@@ -28,9 +28,9 @@ datasets
 ### 1.simple Faster R-CNN
 backbone: VGG16  
 train: 在simple-faster-rcnn 路径下  
-'''
+```
 python train.py train
-'''
+```
 parameters:  
 - --plot-every=n: 可视化的轮次
 - --env: visdom里面的环境名称 
@@ -40,6 +40,13 @@ parameters:
 - --load-path: 预训练模型路径
 
 ### 2.Faster R-CNN based on ResNet
+backbone:ResNet50  
+#### 实现1：自己修改源码
+simple-faster-rcnn/models/faster_rcnn_resnet50.py 是根据原有的faster_rcnn_vgg16.py进行修改的文件  
+将uitls/config.py里的model修改成RESNET50，即可按照上一节的方法进行训练。
+
+### 实现2:
+
 
 
 ### 3.Faster R-CNN based on ResNet and FPN
