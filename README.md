@@ -9,7 +9,7 @@
 将数据解压后放入datasets/voc目录  
 数据的目录结构如下：
 detection_template  
-    └── datasets  
+\ \  \ └── datasets  
           ├── voc             
           │    ├── Annotations  
           │    ├── JPEGImages  
