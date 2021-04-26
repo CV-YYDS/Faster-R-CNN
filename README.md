@@ -2,13 +2,20 @@
 
 ## Preparation
 ### 1.Dependency
-
-
+```
+# install other dependancy
+pip install visdom scikit-image tqdm fire ipdb pprint matplotlib torchnet
+```
+```
+# start visdom
+nohup python -m visdom.server &
+```
 ### 2.Dataset
 下载数据https://pan.baidu.com/s/1AYao-vYtHbTRN-gQajfHCw，密码7yyp  
 将数据解压后放入datasets/voc目录  
-数据的目录结构如下：
-&nbsp; &nbsp;datasets
+数据目录结构如下：  
+```
+datasets
           ├── voc           
           │    ├── Annotations
           │    ├── JPEGImages
@@ -16,7 +23,7 @@
           │            ├── train.txt
           │            └── test.txt
           └── <其他数据集>
-
+```
 ## Models
 
 ## Train
