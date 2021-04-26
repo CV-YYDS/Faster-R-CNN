@@ -41,7 +41,7 @@ parameters:
 
 ### 2.Faster R-CNN based on ResNet
 backbone:ResNet50  
-实现方式：修改源码
+实现方式：修改源码  
 /rcnn/simple-faster-rcnn/models/faster_rcnn_resnet50.py 是我们根据原有的faster_rcnn_vgg16.py进行修改的文件  
 将uitls/config.py里的model修改成RESNET50，即可按照上一节的方法进行训练。  
 但由于base的方法只支持batch_size 1,效果不是特别好。  
