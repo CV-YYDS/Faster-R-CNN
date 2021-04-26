@@ -8,15 +8,14 @@
 下载数据https://pan.baidu.com/s/1AYao-vYtHbTRN-gQajfHCw，密码7yyp  
 将数据解压后放入datasets/voc目录  
 数据的目录结构如下：
-detection_template  
-\ \  \ └── datasets  
-          ├── voc             
-          │    ├── Annotations  
-          │    ├── JPEGImages  
-          │    └── ImageSets/Main  
-          │            ├── train.txt  
-          │            └── test.txt  
-          └── <其他数据集>  
+&nbsp; &nbsp;datasets
+          ├── voc           
+          │    ├── Annotations
+          │    ├── JPEGImages
+          │    └── ImageSets/Main
+          │            ├── train.txt
+          │            └── test.txt
+          └── <其他数据集>
 
 ## Models
 
