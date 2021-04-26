@@ -24,10 +24,14 @@ datasets
           │            └── test.txt
           └── <其他数据集>
 ```
-## Models
+## Models and Training
+### 1.simple Faster R-CNN
+backbone: VGG16
 
-## Train
+### 2.Faster R-CNN based on ResNet
 
+
+### 3.Faster R-CNN based on ResNet and FPN
 
 ## References
 - Simple Faster R-CNN by yunchen: [https://github.com/chenyuntc/simple-faster-rcnn-pytorch](https://github.com/chenyuntc/simple-faster-rcnn-pytorch)
