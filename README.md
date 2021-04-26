@@ -24,6 +24,15 @@ datasets
           │            └── test.txt
           └── <其他数据集>
 ```
+
+### 3.Visdom Visualization
+```
+pip install visdom
+```
+配置8097端口进行可视化  
+可能出现无法显示的情况，需要下载网页显示的框架，若翻墙失败无法下载的话可以下载static.zip(链接：https://pan.baidu.com/s/1yWU-Qfha-lhyXNON4oIbHQ 
+提取码：pfn1) 替换掉原本包里的static文件夹即可正常显示。  
+
 ## Models and Training
 ### 1.simple Faster R-CNN
 backbone: VGG16  
